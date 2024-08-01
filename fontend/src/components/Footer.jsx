@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, XIcon, LinkedIn } from '@mui/icons-material';
+import { Facebook, Instagram, X, LinkedIn } from '@mui/icons-material';
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
             <Instagram className="hover:text-pink-500" />
           </a>
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <XIcon className="hover:text-blue-400" />
+            <X className="hover:text-blue-400" />
           </a>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <LinkedIn className="hover:text-blue-700" />
