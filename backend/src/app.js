@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://nas-nfc-eqfi.vercel.app",
     methods: "GET,HEAD,POST,DELETE",
     credentials: true,
   })
