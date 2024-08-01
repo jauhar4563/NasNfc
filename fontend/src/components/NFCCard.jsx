@@ -1,9 +1,9 @@
-import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import chipImg from "../assets/pngwing.com.png";
 
 export default function NfcCard({ company }) {
+
   return (
     <Card
       sx={{
